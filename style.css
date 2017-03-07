@@ -1,0 +1,891 @@
+.title {
+  text-align: center;
+}
+
+#footer a:link {
+  color: Black;
+}
+
+#footer a:visited {
+  color: Black;
+}
+
+#footer a:hover {
+  color: Black;
+}
+
+body {
+  background: #ECEFF1;
+}
+
+.box {
+  position: relative;
+  margin: auto;
+  display: block;
+  /*optional background or border*/
+  margin-top: 5%;
+  width: 600px;
+  height: 370px;
+  background: none;
+}
+
+.notepad-back {
+  position: absolute;
+  top: 1.5%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background: #cf556c;
+}
+
+.notepad-left {
+  position: absolute;
+  top: 5%;
+  left: 6%;
+  width: 43.5%;
+  height: 86%;
+  background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+}
+
+.notepad-right {
+  position: absolute;
+  top: 5%;
+  right: 6%;
+  width: 43.5%;
+  height: 86%;
+  background: linear-gradient(to left, #ffecd2 0%, #fcb69f 100%);
+}
+
+.line-top-left {
+  position: absolute;
+  top: 10%;
+  right: 6%;
+  width: 88.5%;
+  height: 1%;
+  background: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+}
+
+.line-top-right {
+  position: absolute;
+  top: 10%;
+  right: 6%;
+  width: 88.5%;
+  height: 1%;
+  background: linear-gradient(to left, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+}
+
+.line-bottom-left {
+  position: absolute;
+  bottom: 10%;
+  right: 6%;
+  width: 88.5%;
+  height: 1%;
+  background: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+}
+
+.line-bottom-right {
+  position: absolute;
+  bottom: 10%;
+  right: 6%;
+  width: 88.5%;
+  height: 1%;
+  background: linear-gradient(to left, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+}
+
+.line-1 {
+  position: absolute;
+  top: 15%;
+  right: 6%;
+  width: 88.5%;
+  height: 0.3%;
+  background: #ff8177;
+}
+
+.line-2 {
+  position: absolute;
+  top: 20%;
+  right: 6%;
+  width: 88.5%;
+  height: 0.3%;
+  background: #ff8177;
+}
+
+.line-3 {
+  position: absolute;
+  top: 25%;
+  right: 6%;
+  width: 88.5%;
+  height: 0.3%;
+  background: #ff8177;
+}
+
+.line-4 {
+  position: absolute;
+  top: 29.9%;
+  right: 6%;
+  width: 88.5%;
+  height: 0.3%;
+  background: #ff8177;
+}
+
+.line-5 {
+  position: absolute;
+  top: 35%;
+  right: 6%;
+  width: 88.5%;
+  height: 0.3%;
+  background: #ff8177;
+}
+
+.line-6 {
+  position: absolute;
+  top: 40%;
+  right: 6%;
+  width: 88.5%;
+  height: 0.3%;
+  background: #ff8177;
+}
+
+.line-7 {
+  position: absolute;
+  top: 45%;
+  right: 6%;
+  width: 88.5%;
+  height: 0.3%;
+  background: #ff8177;
+}
+
+.line-8 {
+  position: absolute;
+  top: 50%;
+  right: 6%;
+  width: 88.5%;
+  height: 0.3%;
+  background: #ff8177;
+}
+
+.line-9 {
+  position: absolute;
+  top: 55%;
+  right: 6%;
+  width: 88.5%;
+  height: 0.3%;
+  background: #ff8177;
+}
+
+.line-10 {
+  position: absolute;
+  top: 60%;
+  right: 6%;
+  width: 88.5%;
+  height: 0.3%;
+  background: #ff8177;
+}
+
+.line-11 {
+  position: absolute;
+  top: 65%;
+  right: 6%;
+  width: 88.5%;
+  height: 0.3%;
+  background: #ff8177;
+}
+
+.line-12 {
+  position: absolute;
+  top: 70%;
+  right: 6%;
+  width: 88.5%;
+  height: 0.3%;
+  background: #ff8177;
+}
+
+.line-13 {
+  position: absolute;
+  top: 75%;
+  right: 6%;
+  width: 88.5%;
+  height: 0.3%;
+  background: #ff8177;
+}
+
+.line-14 {
+  position: absolute;
+  top: 80%;
+  right: 6%;
+  width: 88.5%;
+  height: 0.3%;
+  background: #ff8177;
+}
+
+.line-15 {
+  position: absolute;
+  top: 85%;
+  right: 6%;
+  width: 88.5%;
+  height: 0.3%;
+  background: #ff8177;
+}
+
+.hole-1-left {
+  position: absolute;
+  top: 9.5%;
+  right: 6%;
+  width: 3%;
+  height: 2%;
+  border-radius: 50%;
+  background: #cf556c;
+}
+
+.hole-2-left {
+  position: absolute;
+  top: 14%;
+  right: 6%;
+  width: 3%;
+  height: 2%;
+  border-radius: 50%;
+  background: #cf556c;
+}
+
+.hole-3-left {
+  position: absolute;
+  top: 19%;
+  right: 6%;
+  width: 3%;
+  height: 2%;
+  border-radius: 50%;
+  background: #cf556c;
+}
+
+.hole-4-left {
+  position: absolute;
+  top: 24%;
+  right: 6%;
+  width: 3%;
+  height: 2%;
+  border-radius: 50%;
+  background: #cf556c;
+}
+
+.hole-5-left {
+  position: absolute;
+  top: 29%;
+  right: 6%;
+  width: 3%;
+  height: 2%;
+  border-radius: 50%;
+  background: #cf556c;
+}
+
+.hole-6-left {
+  position: absolute;
+  top: 34%;
+  right: 6%;
+  width: 3%;
+  height: 2%;
+  border-radius: 50%;
+  background: #cf556c;
+}
+
+.hole-7-left {
+  position: absolute;
+  top: 39%;
+  right: 6%;
+  width: 3%;
+  height: 2%;
+  border-radius: 50%;
+  background: #cf556c;
+}
+
+.hole-8-left {
+  position: absolute;
+  top: 44%;
+  right: 6%;
+  width: 3%;
+  height: 2%;
+  border-radius: 50%;
+  background: #cf556c;
+}
+
+.hole-9-left {
+  position: absolute;
+  top: 49%;
+  right: 6%;
+  width: 3%;
+  height: 2%;
+  border-radius: 50%;
+  background: #cf556c;
+}
+
+.hole-10-left {
+  position: absolute;
+  top: 54%;
+  right: 6%;
+  width: 3%;
+  height: 2%;
+  border-radius: 50%;
+  background: #cf556c;
+}
+
+.hole-11-left {
+  position: absolute;
+  top: 59%;
+  right: 6%;
+  width: 3%;
+  height: 2%;
+  border-radius: 50%;
+  background: #cf556c;
+}
+
+.hole-12-left {
+  position: absolute;
+  top: 64%;
+  right: 6%;
+  width: 3%;
+  height: 2%;
+  border-radius: 50%;
+  background: #cf556c;
+}
+
+.hole-13-left {
+  position: absolute;
+  top: 69%;
+  right: 6%;
+  width: 3%;
+  height: 2%;
+  border-radius: 50%;
+  background: #cf556c;
+}
+
+.hole-14-left {
+  position: absolute;
+  top: 74%;
+  right: 6%;
+  width: 3%;
+  height: 2%;
+  border-radius: 50%;
+  background: #cf556c;
+}
+
+.hole-15-left {
+  position: absolute;
+  top: 79%;
+  right: 6%;
+  width: 3%;
+  height: 2%;
+  border-radius: 50%;
+  background: #cf556c;
+}
+
+.hole-16-left {
+  position: absolute;
+  top: 84%;
+  right: 6%;
+  width: 3%;
+  height: 2%;
+  border-radius: 50%;
+  background: #cf556c;
+}
+
+.hole-17-left {
+  position: absolute;
+  top: 88.5%;
+  right: 6%;
+  width: 3%;
+  height: 2%;
+  border-radius: 50%;
+  background: #cf556c;
+  z-index: 1;
+}
+
+.hole-1-right {
+  position: absolute;
+  top: 9.5%;
+  left: 5%;
+  width: 3%;
+  height: 2%;
+  border-radius: 50%;
+  background: #cf556c;
+}
+
+.hole-2-right {
+  position: absolute;
+  top: 14%;
+  left: 5%;
+  width: 3%;
+  height: 2%;
+  border-radius: 50%;
+  background: #cf556c;
+}
+
+.hole-3-right {
+  position: absolute;
+  top: 19%;
+  left: 5%;
+  width: 3%;
+  height: 2%;
+  border-radius: 50%;
+  background: #cf556c;
+}
+
+.hole-4-right {
+  position: absolute;
+  top: 24%;
+  left: 5%;
+  width: 3%;
+  height: 2%;
+  border-radius: 50%;
+  background: #cf556c;
+}
+
+.hole-5-right {
+  position: absolute;
+  top: 29%;
+  left: 5%;
+  width: 3%;
+  height: 2%;
+  border-radius: 50%;
+  background: #cf556c;
+}
+
+.hole-6-right {
+  position: absolute;
+  top: 34%;
+  left: 5%;
+  width: 3%;
+  height: 2%;
+  border-radius: 50%;
+  background: #cf556c;
+}
+
+.hole-7-right {
+  position: absolute;
+  top: 39%;
+  left: 5%;
+  width: 3%;
+  height: 2%;
+  border-radius: 50%;
+  background: #cf556c;
+}
+
+.hole-8-right {
+  position: absolute;
+  top: 44%;
+  left: 5%;
+  width: 3%;
+  height: 2%;
+  border-radius: 50%;
+  background: #cf556c;
+}
+
+.hole-9-right {
+  position: absolute;
+  top: 49%;
+  left: 5%;
+  width: 3%;
+  height: 2%;
+  border-radius: 50%;
+  background: #cf556c;
+}
+
+.hole-10-right {
+  position: absolute;
+  top: 54%;
+  left: 5%;
+  width: 3%;
+  height: 2%;
+  border-radius: 50%;
+  background: #cf556c;
+}
+
+.hole-11-right {
+  position: absolute;
+  top: 59%;
+  left: 5%;
+  width: 3%;
+  height: 2%;
+  border-radius: 50%;
+  background: #cf556c;
+}
+
+.hole-12-right {
+  position: absolute;
+  top: 64%;
+  left: 5%;
+  width: 3%;
+  height: 2%;
+  border-radius: 50%;
+  background: #cf556c;
+}
+
+.hole-13-right {
+  position: absolute;
+  top: 69%;
+  left: 5%;
+  width: 3%;
+  height: 2%;
+  border-radius: 50%;
+  background: #cf556c;
+}
+
+.hole-14-right {
+  position: absolute;
+  top: 74%;
+  left: 5%;
+  width: 3%;
+  height: 2%;
+  border-radius: 50%;
+  background: #cf556c;
+}
+
+.hole-15-right {
+  position: absolute;
+  top: 79%;
+  left: 5%;
+  width: 3%;
+  height: 2%;
+  border-radius: 50%;
+  background: #cf556c;
+}
+
+.hole-16-right {
+  position: absolute;
+  top: 84%;
+  left: 5%;
+  width: 3%;
+  height: 2%;
+  border-radius: 50%;
+  background: #cf556c;
+}
+
+.hole-17-right {
+  position: absolute;
+  top: 88.5%;
+  left: 5%;
+  width: 3%;
+  height: 2%;
+  border-radius: 50%;
+  background: #cf556c;
+  z-index: 1;
+}
+
+.no {
+  color: #cf556c;
+  position: absolute;
+  top: 5.5%;
+  left: 5%;
+  font-size: 0.8em;
+}
+
+.date {
+  color: #cf556c;
+  position: absolute;
+  top: 5.5%;
+  left: 64%;
+  font-size: 0.8em;
+}
+
+.half-circle-1 {
+  position: absolute;
+  top: 6%;
+  left: 92.7%;
+  width: 16%;
+  height: 6%;
+  background: #cf556c;
+  z-index: 1;
+  border-radius: 40%;
+  -webkit-clip-path: polygon(6% 6%, 0% 100%, 0 100%, 24% 19%, 77% 18%, 100% 100%, 0 100%, 0 100%, 100% 100%, 96% 6%);
+  clip-path: polygon(6% 6%, 0% 100%, 0 100%, 24% 19%, 77% 18%, 100% 100%, 0 100%, 0 100%, 100% 100%, 96% 6%);
+}
+
+.half-circle-2 {
+  position: absolute;
+  top: 10%;
+  left: 92.7%;
+  width: 16%;
+  height: 6%;
+  background: #cf556c;
+  z-index: 1;
+  border-radius: 40%;
+  -webkit-clip-path: polygon(6% 6%, 0% 100%, 0 100%, 24% 19%, 77% 18%, 100% 100%, 0 100%, 0 100%, 100% 100%, 96% 6%);
+  clip-path: polygon(6% 6%, 0% 100%, 0 100%, 24% 19%, 77% 18%, 100% 100%, 0 100%, 0 100%, 100% 100%, 96% 6%);
+}
+
+.half-circle-3 {
+  position: absolute;
+  top: 15%;
+  left: 92.7%;
+  width: 16%;
+  height: 6%;
+  background: #cf556c;
+  z-index: 1;
+  border-radius: 40%;
+  -webkit-clip-path: polygon(6% 6%, 0% 100%, 0 100%, 24% 19%, 77% 18%, 100% 100%, 0 100%, 0 100%, 100% 100%, 96% 6%);
+  clip-path: polygon(6% 6%, 0% 100%, 0 100%, 24% 19%, 77% 18%, 100% 100%, 0 100%, 0 100%, 100% 100%, 96% 6%);
+}
+
+.half-circle-4 {
+  position: absolute;
+  top: 20%;
+  left: 92.7%;
+  width: 16%;
+  height: 6%;
+  background: #cf556c;
+  z-index: 1;
+  border-radius: 40%;
+  -webkit-clip-path: polygon(6% 6%, 0% 100%, 0 100%, 24% 19%, 77% 18%, 100% 100%, 0 100%, 0 100%, 100% 100%, 96% 6%);
+  clip-path: polygon(6% 6%, 0% 100%, 0 100%, 24% 19%, 77% 18%, 100% 100%, 0 100%, 0 100%, 100% 100%, 96% 6%);
+}
+
+.half-circle-5 {
+  position: absolute;
+  top: 25%;
+  left: 92.7%;
+  width: 16%;
+  height: 6%;
+  background: #cf556c;
+  z-index: 1;
+  border-radius: 40%;
+  -webkit-clip-path: polygon(6% 6%, 0% 100%, 0 100%, 24% 19%, 77% 18%, 100% 100%, 0 100%, 0 100%, 100% 100%, 96% 6%);
+  clip-path: polygon(6% 6%, 0% 100%, 0 100%, 24% 19%, 77% 18%, 100% 100%, 0 100%, 0 100%, 100% 100%, 96% 6%);
+}
+
+.half-circle-6 {
+  position: absolute;
+  top: 30%;
+  left: 92.7%;
+  width: 16%;
+  height: 6%;
+  background: #cf556c;
+  z-index: 1;
+  border-radius: 40%;
+  -webkit-clip-path: polygon(6% 6%, 0% 100%, 0 100%, 24% 19%, 77% 18%, 100% 100%, 0 100%, 0 100%, 100% 100%, 96% 6%);
+  clip-path: polygon(6% 6%, 0% 100%, 0 100%, 24% 19%, 77% 18%, 100% 100%, 0 100%, 0 100%, 100% 100%, 96% 6%);
+}
+
+.half-circle-7 {
+  position: absolute;
+  top: 35%;
+  left: 92.7%;
+  width: 16%;
+  height: 6%;
+  background: #cf556c;
+  z-index: 1;
+  border-radius: 40%;
+  -webkit-clip-path: polygon(6% 6%, 0% 100%, 0 100%, 24% 19%, 77% 18%, 100% 100%, 0 100%, 0 100%, 100% 100%, 96% 6%);
+  clip-path: polygon(6% 6%, 0% 100%, 0 100%, 24% 19%, 77% 18%, 100% 100%, 0 100%, 0 100%, 100% 100%, 96% 6%);
+}
+
+.half-circle-8 {
+  position: absolute;
+  top: 40%;
+  left: 92.7%;
+  width: 16%;
+  height: 6%;
+  background: #cf556c;
+  z-index: 1;
+  border-radius: 40%;
+  -webkit-clip-path: polygon(6% 6%, 0% 100%, 0 100%, 24% 19%, 77% 18%, 100% 100%, 0 100%, 0 100%, 100% 100%, 96% 6%);
+  clip-path: polygon(6% 6%, 0% 100%, 0 100%, 24% 19%, 77% 18%, 100% 100%, 0 100%, 0 100%, 100% 100%, 96% 6%);
+}
+
+.half-circle-9 {
+  position: absolute;
+  top: 45%;
+  left: 92.7%;
+  width: 16%;
+  height: 6%;
+  background: #cf556c;
+  z-index: 1;
+  border-radius: 40%;
+  -webkit-clip-path: polygon(6% 6%, 0% 100%, 0 100%, 24% 19%, 77% 18%, 100% 100%, 0 100%, 0 100%, 100% 100%, 96% 6%);
+  clip-path: polygon(6% 6%, 0% 100%, 0 100%, 24% 19%, 77% 18%, 100% 100%, 0 100%, 0 100%, 100% 100%, 96% 6%);
+}
+
+.half-circle-10 {
+  position: absolute;
+  top: 50%;
+  left: 92.7%;
+  width: 16%;
+  height: 6%;
+  background: #cf556c;
+  z-index: 1;
+  border-radius: 40%;
+  -webkit-clip-path: polygon(6% 6%, 0% 100%, 0 100%, 24% 19%, 77% 18%, 100% 100%, 0 100%, 0 100%, 100% 100%, 96% 6%);
+  clip-path: polygon(6% 6%, 0% 100%, 0 100%, 24% 19%, 77% 18%, 100% 100%, 0 100%, 0 100%, 100% 100%, 96% 6%);
+}
+
+.half-circle-11 {
+  position: absolute;
+  top: 55%;
+  left: 92.7%;
+  width: 16%;
+  height: 6%;
+  background: #cf556c;
+  z-index: 1;
+  border-radius: 40%;
+  -webkit-clip-path: polygon(6% 6%, 0% 100%, 0 100%, 24% 19%, 77% 18%, 100% 100%, 0 100%, 0 100%, 100% 100%, 96% 6%);
+  clip-path: polygon(6% 6%, 0% 100%, 0 100%, 24% 19%, 77% 18%, 100% 100%, 0 100%, 0 100%, 100% 100%, 96% 6%);
+}
+
+.half-circle-12 {
+  position: absolute;
+  top: 60%;
+  left: 92.7%;
+  width: 16%;
+  height: 6%;
+  background: #cf556c;
+  z-index: 1;
+  border-radius: 40%;
+  -webkit-clip-path: polygon(6% 6%, 0% 100%, 0 100%, 24% 19%, 77% 18%, 100% 100%, 0 100%, 0 100%, 100% 100%, 96% 6%);
+  clip-path: polygon(6% 6%, 0% 100%, 0 100%, 24% 19%, 77% 18%, 100% 100%, 0 100%, 0 100%, 100% 100%, 96% 6%);
+}
+
+.half-circle-13 {
+  position: absolute;
+  top: 66%;
+  left: 92.7%;
+  width: 16%;
+  height: 6%;
+  background: #cf556c;
+  z-index: 1;
+  border-radius: 40%;
+  -webkit-clip-path: polygon(6% 6%, 0% 100%, 0 100%, 24% 19%, 77% 18%, 100% 100%, 0 100%, 0 100%, 100% 100%, 96% 6%);
+  clip-path: polygon(6% 6%, 0% 100%, 0 100%, 24% 19%, 77% 18%, 100% 100%, 0 100%, 0 100%, 100% 100%, 96% 6%);
+}
+
+.half-circle-14 {
+  position: absolute;
+  top: 70%;
+  left: 92.7%;
+  width: 16%;
+  height: 6%;
+  background: #cf556c;
+  z-index: 1;
+  border-radius: 40%;
+  -webkit-clip-path: polygon(6% 6%, 0% 100%, 0 100%, 24% 19%, 77% 18%, 100% 100%, 0 100%, 0 100%, 100% 100%, 96% 6%);
+  clip-path: polygon(6% 6%, 0% 100%, 0 100%, 24% 19%, 77% 18%, 100% 100%, 0 100%, 0 100%, 100% 100%, 96% 6%);
+}
+
+.half-circle-15 {
+  position: absolute;
+  top: 75%;
+  left: 92.7%;
+  width: 16%;
+  height: 6%;
+  background: #cf556c;
+  z-index: 1;
+  border-radius: 40%;
+  -webkit-clip-path: polygon(6% 6%, 0% 100%, 0 100%, 24% 19%, 77% 18%, 100% 100%, 0 100%, 0 100%, 100% 100%, 96% 6%);
+  clip-path: polygon(6% 6%, 0% 100%, 0 100%, 24% 19%, 77% 18%, 100% 100%, 0 100%, 0 100%, 100% 100%, 96% 6%);
+}
+
+.half-circle-16 {
+  position: absolute;
+  top: 80%;
+  left: 92.7%;
+  width: 16%;
+  height: 6%;
+  background: #cf556c;
+  z-index: 1;
+  border-radius: 40%;
+  -webkit-clip-path: polygon(6% 6%, 0% 100%, 0 100%, 24% 19%, 77% 18%, 100% 100%, 0 100%, 0 100%, 100% 100%, 96% 6%);
+  clip-path: polygon(6% 6%, 0% 100%, 0 100%, 24% 19%, 77% 18%, 100% 100%, 0 100%, 0 100%, 100% 100%, 96% 6%);
+}
+
+.half-circle-17 {
+  position: absolute;
+  top: 85%;
+  left: 92.7%;
+  width: 16%;
+  height: 6%;
+  background: #cf556c;
+  z-index: 1;
+  border-radius: 40%;
+  -webkit-clip-path: polygon(6% 6%, 0% 100%, 0 100%, 24% 19%, 77% 18%, 100% 100%, 0 100%, 0 100%, 100% 100%, 96% 6%);
+  clip-path: polygon(6% 6%, 0% 100%, 0 100%, 24% 19%, 77% 18%, 100% 100%, 0 100%, 0 100%, 100% 100%, 96% 6%);
+}
+
+.daily {
+  position: absolute;
+  top: 5%;
+  left: 7%;
+  z-index: 3;
+}
+
+.daily p {
+  font-family: 'Dancing Script', arial, serif;
+  font-size: 1.7em;
+}
+
+.face {
+  position: absolute;
+  top: 27%;
+  left: 41%;
+  width: 16%;
+  height: 13%;
+  background: auto;
+  border: solid 3px #000;
+  z-index: 5;
+  border-radius: 50%;
+}
+
+.body {
+  position: absolute;
+  top: 41%;
+  left: 44%;
+  width: 10%;
+  height: 33%;
+  background: auto;
+  border: solid 3px #000;
+  z-index: 5;
+  border-radius: 50%;
+}
+
+.hand-left {
+  position: absolute;
+  top: 45%;
+  left: 24%;
+  width: 21%;
+  height: 0.5%;
+  background: #000;
+  border: solid 2px #000;
+  z-index: 5;
+  border-radius: 40%;
+}
+
+.hand-right {
+  position: absolute;
+  top: 45%;
+  right: 24%;
+  width: 21%;
+  height: 0.5%;
+  background: #000;
+  border: solid 2px #000;
+  z-index: 5;
+  border-radius: 40%;
+}
+
+.leg-left {
+  position: absolute;
+  top: 75%;
+  left: 51%;
+  width: 0.5%;
+  height: 18%;
+  background: #000;
+  border: solid 2px #000;
+  z-index: 5;
+  border-radius: 40%;
+}
+
+.leg-right {
+  position: absolute;
+  top: 75%;
+  right: 50%;
+  width: 0.5%;
+  height: 18%;
+  background: #000;
+  border: solid 2px #000;
+  z-index: 5;
+  border-radius: 40%;
+}
